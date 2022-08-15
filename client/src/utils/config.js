@@ -1,0 +1,1 @@
+export const config = [    {code:7, country:'Russia'},    {code:44, country:'United Kingdom'},    {code:1, country:'United States'},]

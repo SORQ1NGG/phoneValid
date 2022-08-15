@@ -1,0 +1,1 @@
+const mongoose = require("mongoose")const Schema = mongoose.Schema;const PhoneSchema = new Schema({    type: String,    text: String}, { versionKey: false });const Phones = mongoose.model("phone", PhoneSchema);module.exports = Phones

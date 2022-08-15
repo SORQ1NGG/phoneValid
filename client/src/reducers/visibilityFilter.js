@@ -1,0 +1,1 @@
+import { VisibilityFilter } from '../actions'export const visibilityFilter = (state = VisibilityFilter, action) => {    switch (action.type) {        case 'SET_VISIBILITY_FILTER':            return action.filter        default:            return state    }}

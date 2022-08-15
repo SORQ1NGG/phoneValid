@@ -1,0 +1,1 @@
+let counter = 0export const addPhone = (text) => ({    type: 'ADD_PHONE',    id: counter++,    text:  text})export const VisibilityFilter = {    SHOW_ALL: 'SHOW_ALL'}
